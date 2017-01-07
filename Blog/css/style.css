@@ -2,21 +2,32 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    background-image: url(../image/mainBg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
 }
 body {
-    color: black;
+    color: white;
     width: inherit;
 }
 .navbar {
-    background: #ccc;
     height: 50px;
-    margin-bottom: 5px;
+   border: 0px;
 }
 .banner {
-    background: #ccc;
     min-height: 500px;
     margin-bottom: 5px;
+    margin-top: 50px;
 }
+.hello {
+    width: 50%;
+    float: left;
+    }
+.avatar {
+    width: 50%;
+    float: left;
+    }
 .row {   
     min-height: 500px;
     margin-bottom: 5px;
@@ -43,7 +54,6 @@ body {
 
 }
 .inner-content-java {
-    background: #ccc;
     min-height: 500px;
 }
 .sidebar-java {
@@ -52,7 +62,6 @@ body {
     padding-right: 5px
 }
 .inner-sitebar-java {
-    background: #ccc;
     min-height: 500px;
 }
 .content-web {
@@ -60,7 +69,6 @@ body {
     float: left;
 }
 .inner-content-web {
-    background: #ccc;
     min-height: 500px;
 }
 .sidebar-web {
@@ -69,7 +77,6 @@ body {
     padding-left: 5px;
 }
 .inner-sitebar-web {
-    background: #ccc;
     min-height: 500px;
 }
 .footer {
@@ -78,12 +85,10 @@ body {
     margin-top: 5px;
 }
 .inner-skills {
-    background: #ccc;
     height: 250px;
     margin-bottom: 5px;
 }
 .inner-contacts {
-    background: #ccc;
     height: 250px;
     margin-bottom: 5px;
 }
