@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 body {
     color: black;
@@ -17,7 +19,8 @@ body {
 }
 .row {   
     min-height: 500px;
-    margin-bottom: 5px
+    margin-bottom: 5px;
+    margin-right: 0px;
     }
 .row:after {
      visibility: hidden;
@@ -35,8 +38,9 @@ body {
 
 
 .content-java {
-    width: 80%;
-    float: left;
+    width:80%;
+    float: right;;
+
 }
 .inner-content-java {
     background: #ccc;
@@ -53,7 +57,7 @@ body {
 }
 .content-web {
     width: 80%;
-    float: left;;
+    float: left;
 }
 .inner-content-web {
     background: #ccc;
