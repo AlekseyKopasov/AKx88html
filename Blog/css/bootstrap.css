@@ -44,6 +44,7 @@ template {
 }
 a {
   background-color: transparent;
+    
 }
 a:active,
 a:hover {
@@ -4322,7 +4323,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-nav {
   margin: 7.5px -15px;
-}
+  
+  }
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;

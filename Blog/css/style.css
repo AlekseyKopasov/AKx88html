@@ -11,21 +11,40 @@ body {
     color: white;
     width: inherit;
 }
-.navbar {
-    height: 50px;
-   border: 0px;
+a {
+    color: white;
+    font-family: 'montserrat', sans-serif;    
 }
+a:hover {
+    color:cornflowerblue;
+    
+}
+.navbar {
+   height: 50px;
+   border: 0px;
+ }
 .navbar-default .navbar-brand {
     color: white;
+    font-family: 'montserrat', sans-serif;
+    font-size: 30px;
+}
+.navbar-default .navbar-brand:hover {
+    color:cornflowerblue;
 }
 .navbar-default .navbar-nav  li  a {
     color: white;
+    font-family: 'montserrat', sans-serif;
+    font-size: 18px;
 }
+.navbar-default .navbar-nav  li  a:hover {
+    color:cornflowerblue;
+}
+
 .banner {
     min-height: 500px;
     margin-bottom: 5px;
     margin-top: 50px;
-}
+  }
 .hello {
     width: 50%;
     float: left;
@@ -102,3 +121,7 @@ body {
 img {
     height: 300px;
    }
+
+.navbar-nav {
+ 
+}
