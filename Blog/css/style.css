@@ -40,7 +40,7 @@ a:hover {
     color:cornflowerblue;
 }
 
-.banner {
+.banner {  
     min-height: 500px;
     margin-bottom: 5px;
     margin-top: 50px;
@@ -48,10 +48,20 @@ a:hover {
 .hello {
     width: 50%;
     float: left;
+    color: white;
+    font-family: 'montserrat', sans-serif;
+    font-size: 18px;
+    text-align: right;
+    margin-top: 206.5px;
+    padding-right: 50px;
     }
+.name p {
+    font-size: 30px;
+}
 .avatar {
     width: 50%;
     float: left;
+    margin-top: 100px;
     }
 .row {   
     min-height: 500px;
@@ -120,6 +130,8 @@ a:hover {
 
 img {
     height: 300px;
+    width: 180px;
+    
    }
 
 .navbar-nav {
