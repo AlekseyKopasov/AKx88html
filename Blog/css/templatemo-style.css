@@ -180,7 +180,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: white;
-  font-family: 'Montserrat';
+  font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
     letter-spacing: 0.1em;
     background-image: url(../img/blackmamba.png);
@@ -196,7 +196,7 @@ a {
   -o-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
   text-decoration: none !important;
-   font-family: 'Montserrat';
+   font-family: 'Roboto', sans-serif;
 }
 a:hover {
   color: #555555;
@@ -324,7 +324,7 @@ h3.profile-title {
   margin-bottom: 5px;
   color: white;
   font-size: 18px;
-   font-family: 'Montserrat';
+  font-family: 'Roboto', sans-serif;
 }
 
 .main-navigation {
@@ -473,11 +473,13 @@ box-shadow: 0px 0px 6px 5px rgba(0,0,0,0.5);
    }
 .welcome-text h2 {
   font-size: 60px;
-   font-family: 'TT Walls rough';
+   font-family: 'Roboto', sans-serif;
   color: white;
   margin-bottom: 30px;
 }
 .welcome-text h5 {
+    
+  font-family: 'Roboto', sans-serif;
   font-size: 22px;
   color: white;   
 }
