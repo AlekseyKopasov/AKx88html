@@ -1,0 +1,47 @@
+.nav__link {
+	color: #000;
+}
+
+.nav__item_active .nav__link {
+	color: blue;
+}
+
+.socials__link {
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+
+.socials__link_vk {
+	
+}
+
+
+.btn {
+	padding: 10px 35px;
+	border: 2px solid red;
+	display: inline-block;
+	color: red;
+	border-radius: 50px;
+	text-decoration: none;
+}
+
+.btn__icon {
+	width: 20px;
+	height: 20px;
+	background: red;
+	display: inline-block;
+	vertical-align: middle;
+}
+.btn__text {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.btn_white {
+	border-color: white;
+}
+
+.btn_white .btn__text {
+	color: #fff;
+}
